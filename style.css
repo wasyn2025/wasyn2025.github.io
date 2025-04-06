@@ -1,0 +1,57 @@
+html {
+    --default-gap: 2rem;
+    --padding-bottom: 100rem;
+    scroll-behavior: smooth;
+}
+
+.padding-bottom {
+    padding-bottom: var(--padding-bottom);
+}
+
+.svg-icon {
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 80px);
+}
+
+.skill-grid>.card {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    aspect-ratio: 1/1;
+}
+
+.social-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+    width: 200px;
+    cursor: pointer;
+}
+
+.social-card img {
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+/* medium */
+@media (max-width: 1000px) {
+    .cs-text-md-center {
+        text-align: center;
+    }
+
+    .cs-align-items-md-center {
+        align-items: center;
+    }
+
+    .cs-flex-sm-column {
+        flex-direction: column;
+    }
+}
