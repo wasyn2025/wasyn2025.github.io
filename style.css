@@ -41,6 +41,14 @@ html {
     object-fit: cover;
 }
 
+.tentang-text {
+    width: 100%;
+}
+
+.text-box {
+    width: clamp(100px, 100%, 500px);
+}
+
 /* medium */
 @media (max-width: 1000px) {
     .cs-text-md-center {
@@ -53,5 +61,9 @@ html {
 
     .cs-flex-sm-column {
         flex-direction: column;
+    }
+
+    .cs-container-full {
+        width: 100%;
     }
 }
